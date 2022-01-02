@@ -1,0 +1,84 @@
+
+<body>
+
+
+
+    
+    <div class = 'slider'>
+        {%for block in section.blocks%}
+        
+        <div><div class="testimonial-slider">
+            <div class="testimonialquote">
+                {%render 'icon-quotes'%}
+            </div>
+            <div class="testimonial-text">
+                <p>{{block.settings.text}}</p>
+            </div>
+            <div class="testimonial-image">
+                <img src="{{block.settings.image | img_url: "200x" }}" alt="userimg">
+            </div>
+            <div class="testimonial-name">
+                <h3>{{block.settings.name}}</h3>
+            </div>
+        </div></div>
+
+        {%endfor%}
+
+
+
+
+
+
+        
+    </div>
+
+
+
+{%schema%}
+
+
+{
+    "name":"Testimonial Slider",
+    "settings": [],
+    "blocks":[
+        {
+            "type": "testimonial",
+            "name": "Testimonial",
+            "settings": [
+                {
+                   "id": "text",
+                   "label":"text",
+                   "type":"richtext"
+                    
+                     
+                },
+                {
+                    "id": "name",
+                    "label": "Name",
+                    "type":"text"
+                },
+                {
+                    "id":"image",
+                    "label":"Image",
+                    "type":"image_picker"
+                }
+            ]
+
+        }
+
+        
+       
+    
+    ],
+    "presets": [
+    {
+      "name": "Montecito"
+    }
+  ]
+
+
+
+}
+
+
+{%endschema%}

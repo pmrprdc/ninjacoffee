@@ -1,0 +1,80 @@
+{
+  "current": {
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_pinterest_link": "",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Coffee Time  ☕",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Ninja.png",
+          "logo_width": 190,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "79dec83f-e9d8-4836-a7b6-4a35ea263be8": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigation",
+              "menu": "main-menu"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "cb2c0814-c3de-4476-b541-97b38d1abafd": {
+            "type": "text",
+            "settings": {
+              "heading": "Ninja Coffee",
+              "subtext": "<p><\/p><p><em>📌 1800 S Main St, Roswell NY<\/em><\/p><p><em>📞 (575) 627-0144<\/em><\/p><p><em>📧” hello@ninjacoffee.com<\/em><\/p><p><\/p><p><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "79dec83f-e9d8-4836-a7b6-4a35ea263be8",
+          "footer-0",
+          "cb2c0814-c3de-4476-b541-97b38d1abafd"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "4 Coffee Lovers ❤️",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}

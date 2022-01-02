@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "blocks": {
+        "bc9ef501-f499-4e46-94a1-fa40f5a1d97a": {
+          "type": "tax_notice_block",
+          "settings": {
+            "tax_notice_text": "l;k;lk;lklk"
+          }
+        },
+        "ee18fbc6-1427-45ac-82f2-5afeeb95f8c7": {
+          "type": "shipping_notice_block",
+          "settings": {
+            "shipping_notice_text": "kkkkkkkk"
+          }
+        }
+      },
+      "block_order": [
+        "bc9ef501-f499-4e46-94a1-fa40f5a1d97a",
+        "ee18fbc6-1427-45ac-82f2-5afeeb95f8c7"
+      ],
+      "settings": {
+        "show_reviews": true
+      }
+    },
+    "second": {
+      "type": "main-test-product",
+      "settings": {
+        "show_reviews": false
+      }
+    },
+    "16409692483990a784": {
+      "type": "montecito",
+      "settings": {
+        "Test_settings": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "second",
+    "16409692483990a784"
+  ]
+}

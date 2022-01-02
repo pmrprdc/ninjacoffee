@@ -1,0 +1,131 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "16405377331cce069d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1640537733f19519ec-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Founding Ninja"
+          }
+        },
+        "1640537733f19519ec-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1640537733f19519ec-0",
+        "1640537733f19519ec-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1640537797a0efc191": {
+      "type": "image-with-text",
+      "blocks": {
+        "1640537797c1cdab3d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Family Tradition"
+          }
+        },
+        "1640537797c1cdab3d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1640537797c1cdab3d-0",
+        "1640537797c1cdab3d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_2.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "164053787186f7bcb5": {
+      "type": "image-with-text",
+      "blocks": {
+        "16405378714e00470b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Italian Inspired Espresso"
+          }
+        },
+        "16405378714e00470b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16405378714e00470b-0",
+        "16405378714e00470b-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_3.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "164053821367f76d13": {
+      "type": "image-with-text",
+      "blocks": {
+        "164053821310a615e9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Franchise Supply"
+          }
+        },
+        "164053821310a615e9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "164053821310a615e9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/coffee"
+          }
+        }
+      },
+      "block_order": [
+        "164053821310a615e9-0",
+        "164053821310a615e9-1",
+        "164053821310a615e9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16405377331cce069d",
+    "1640537797a0efc191",
+    "164053787186f7bcb5",
+    "164053821367f76d13"
+  ]
+}
