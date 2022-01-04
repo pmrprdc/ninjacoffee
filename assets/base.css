@@ -2218,4 +2218,36 @@ align-items: center;
 }
 
 
+.coffee-info {
 
+  width: 100%;
+  
+  
+}
+
+.coffee-info, td, tr {
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+
+}
+
+
+
+.coffee-indicator {
+
+}
+
+.coffee-indicator svg {
+
+  width: 18px; 
+  height: 18px; 
+  margin-bottom: 0;
+  margin-right: 5px;
+  position: relative;
+  
+  top: 5px;
+ 
+
+
+  
+}
